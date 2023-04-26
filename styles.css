@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 100px;
+    height: auto;
+}
+
+.owl {
+    width: auto;
+    height: 75px;
+}
+
+.header {
+    display: flex;
+    
+}
+
+ul {
+    list-style-type: none;
+}
