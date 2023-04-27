@@ -73,7 +73,18 @@ ul {
 /* Intro */
 
 .intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    margin: 0 25px;
+    padding: 25px;
+    gap: 24px;
+}
 
+.introleft {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .welcome {
@@ -85,5 +96,6 @@ ul {
 }
 
 .mountain {
-
+    width: 40%;
+    height: auto;
 }
