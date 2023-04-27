@@ -4,13 +4,17 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0;
-    background-color: #445d80;
+    background-color: #1f2937;
 
 }
 
 img {
     width: 100px;
     height: auto;
+}
+
+p {
+    color: #f9faf8;
 }
 
 
@@ -22,25 +26,26 @@ img {
 
 .navEvil {
     margin-left: 10px;
-    font-size: larger;
-    color:lightcyan;
+    font-size: 24px;
+    color: #f9faf8;;
 }
 
 .header {
     display: flex;
     align-items:center;
-    color: aliceblue;
+    color: #f9faf8;
     width: 100%;
     padding: 10px;
+    margin-left: 10px;
     
 }
 
 a:link {
-    color: black;
+    color: #f9faf8;
 }
 
 a:visited {
-    color: black;
+    color: #f9faf8;
 }
 
 a:hover {
@@ -65,4 +70,20 @@ ul {
     margin-right: 50px;
 }
 
-/* Section 1 */
+/* Intro */
+
+.intro {
+
+}
+
+.welcome {
+
+}
+
+.about {
+
+}
+
+.mountain {
+
+}
