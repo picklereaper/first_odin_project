@@ -3,6 +3,9 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 0;
+    background-color: #445d80;
+
 }
 
 img {
@@ -10,28 +13,56 @@ img {
     height: auto;
 }
 
+
+/* Header */
 .owl {
     width: auto;
     height: 75px;
 }
 
+.navEvil {
+    margin-left: 10px;
+    font-size: larger;
+    color:lightcyan;
+}
+
 .header {
     display: flex;
     align-items:center;
-    background-color: #445d80;
     color: aliceblue;
+    width: 100%;
+    padding: 10px;
     
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: crimson;
 }
 
 ul {
     list-style-type: none;  
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px
 }
 
 .lefthead {
     display: flex;
     align-items: center;
+    margin-right: auto;
 }
 
 .righthead {
-
+    margin-right: 50px;
 }
+
+/* Section 1 */
