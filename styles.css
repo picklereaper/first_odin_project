@@ -17,9 +17,21 @@ img {
 
 .header {
     display: flex;
+    align-items:center;
+    background-color: #445d80;
+    color: aliceblue;
     
 }
 
 ul {
-    list-style-type: none;
+    list-style-type: none;  
+}
+
+.lefthead {
+    display: flex;
+    align-items: center;
+}
+
+.righthead {
+
 }
