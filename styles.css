@@ -38,6 +38,8 @@ p {
     width: 100%;
     padding: 10px;
     margin-left: 10px;
+    background-color: #495b74;
+
     
 }
 
@@ -155,13 +157,24 @@ button {
 /* The Giant Quote */
 
 .quote-container {
-
+    text-align: center;
+    width: 100%;
+    background-color: #e5e7eb;
+    padding: 25px;
 }
 
 .quote {
-
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    width: 50%;
+    margin: 0 auto;
 }
 
 .attributor {
-    
+    color: #1f2937;
+    font-style: italic;
+    font-weight: bolder;
+    text-align: center;
+    font-size: large;
 }
