@@ -115,3 +115,39 @@ button {
     border: 0;
     font-weight: bolder;
 }
+
+/* Information Section (Midsection) */
+
+.midsection {
+    background-color: azure;
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 52px;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 10px;
+}
+
+.gallery {
+    border: 5px solid #3882F6;
+    border-radius: 15px;
+}
+
+.info-text {
+    max-width: 200px;
+    color: #1f2937;
+}
+
+.care {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
