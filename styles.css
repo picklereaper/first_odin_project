@@ -39,8 +39,6 @@ p {
     padding: 10px;
     margin-left: 10px;
     background-color: #495b74;
-
-    
 }
 
 a:link {
@@ -177,4 +175,48 @@ button {
     font-weight: bolder;
     text-align: center;
     font-size: large;
+}
+
+/* Call to Action Section */
+
+.action {
+    background-color: azure;
+    width: 100%;
+}
+
+.action-header {
+    color: azure;
+    font-size: 32px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.action-text {
+    color: azure;
+    font-size: 24px;
+    font-style: italic;
+
+}
+
+.action-container {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #3882F6;
+    margin: 100px;
+    padding: 50px 100px;
+    border-radius: 25px;
+}
+
+#action-button {
+    border: 1px solid azure;
+    background-color: #3882F6;
+    margin: 0 auto;
+    height: fit-content;
+    align-self: center;
+    font-size: large;
+
+}
+
+.action-info {
+    text-align: center;
 }
